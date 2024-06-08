@@ -1,0 +1,9 @@
+## configuring port of the application
+server.port: 8085
+
+spring:
+  application:
+    name: scan-verse
+
+## Environment Variables
+tesseract_path: "${tesseract_file_path:C:\\Program Files\\Tesseract-OCR}"
