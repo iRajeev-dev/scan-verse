@@ -6,4 +6,4 @@ spring:
     name: scan-verse
 
 ## Environment Variables
-tesseract_path: "${tesseract_file_path:C:\\Program Files\\Tesseract-OCR}"
+TESSDATA_PREFIX: "${tesseract_path:C:\\Program Files\\Tesseract-OCR}"

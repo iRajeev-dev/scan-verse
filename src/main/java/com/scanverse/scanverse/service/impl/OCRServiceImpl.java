@@ -21,7 +21,7 @@ public class OCRServiceImpl implements OCRService {
 
     private final Tesseract tesseract;
 
-    @Value("${tesseract_path}")
+    @Value("${TESSDATA_PREFIX}")
     private String tesseractPath;
 
     /**
